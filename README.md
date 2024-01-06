@@ -49,5 +49,6 @@ python main.py
 
 2、祝其他同事取得好成绩。向各位技术大牛致敬。
 
+3、有ChatGPT和Copilot的加持，代码写得有点“爽”。
 
 
