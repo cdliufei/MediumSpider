@@ -34,6 +34,7 @@ pip install BytesIO
 ```
 - 执行python脚本
 ```
+cd MediumSpider
 python main.py
 ```
 - 稍后会在main.py同级生成top10.json文件
