@@ -9,11 +9,13 @@ It is the result of the author's participation in a coding competition. Due to l
 1.1 采用graphql方式获取数据,并且能够支持分页。
 ![avatar](graphql.png)
 
-1.2 python使用curl模拟postman请求，得到其id,clapcount和url，最大支持25条每次。考虑到网页查询到该tag下有8.7W条数据，因此做了一个循环，从0开始，步长为25，直到88000
+1.2 修改graphql query，让关键信息（id,clapcount和url） 能够比较方便的取到。
 
-1.3 将获取的数据存入sortList，进行排序。将待比较的数据和sortList里最小的一条比较，如果小于直接舍弃。如果大于则将sortList最小的一条替换，再排序，并等待下一条记录。
+1.3 python使用curl模拟postman请求，得到其id,clapcount和url，最大支持25条每次。考虑到网页查询到该tag下有8.7W条数据，因此做了一个循环，从0开始，步长为25，直到88000
 
-1.4 将最后sortList结果存入本地文件。
+1.4 将获取的数据存入sortList，进行排序。将待比较的数据和sortList里最小的一条比较，如果小于直接舍弃。如果大于则将sortList最小的一条替换，再排序，并等待下一条记录。
+
+1.5 将最后sortList结果存入本地文件。
 
 2、访问将对应文章的链接，提取出段落内容 【*待完成*】 __卡在了这步，没有思路__
 
