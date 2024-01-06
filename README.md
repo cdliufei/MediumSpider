@@ -29,7 +29,7 @@ It is the result of the author's participation in a coding competition. Due to l
 
 - 安装对应依赖
 ```
-pip install python
+pip install pycurl
 pip install json
 pip install re
 pip install BytesIO
