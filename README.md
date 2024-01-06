@@ -15,7 +15,7 @@ It is the result of the author's participation in a coding competition. Due to l
 
 1.4 将最后sortList结果存入本地文件。
 
-2、访问将对应文章的链接，提取出段落内容 【*待完成*】
+2、访问将对应文章的链接，提取出段落内容 【*待完成*】 __卡在了这步，没有思路__
 
 3、调用chatGPT，将英文内容翻译为中文 【*待完成*】
 
@@ -37,7 +37,15 @@ pip install BytesIO
 cd MediumSpider
 python main.py
 ```
-- 稍后会在main.py同级生成top10.json文件
+- 稍后会在main.py同级生成[top10.json](https://github.com/cdliufei/MediumSpider/blob/main/MediumSpider/top10.json)文件
+  
+ NOTE: *由于截止时间是18:00，目前程序跑了一个小时左右，大概50000条数据，top10最小的claps仍然是：2253。待到程序运行完成后会再次更新该文件*
+
+### 一点感悟
+
+1、虽然没有完成此次比赛规定的内容，但很享受整个比赛过程。
+
+2、祝其他同事取得好成绩。向各位技术大牛致敬。
 
 
 
